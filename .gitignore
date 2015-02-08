@@ -107,3 +107,10 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+# Don't keep track of address and contact file
+address.tex
+contact.tex
+
+# Emacs files
+*~
