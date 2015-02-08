@@ -110,7 +110,9 @@ sympy-plots-for-*.tex/
 
 # Don't keep track of address and contact file
 address.tex
+address.tex.bak
 contact.tex
+contact.tex.bak
 
 # Emacs files
 *~
