@@ -1,0 +1,155 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res}
+\usepackage[utf8]{inputenc}
+% the margin option causes section titles to appear to the left of body text
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+
+\begin{document}
+
+\name{Tommy Mattsson\\[12pt]} % the \\[12pt] adds a blank line after name
+
+\address{{\bf Contact information}\\
+\input{contact.tex}
+linkedin.com/in/tommymattsson\\
+github.com/Taddic\\
+}
+
+\address{{\bf Address}\\
+  \input{address.tex}\\
+}
+
+\begin{resume}
+
+%\section{Objective}
+%Auditing/Analysis of Operations
+
+\section{Education}
+{\bf M.Sc,  Computer Science,} Uppsala University, Uppsala, Sweden \hfill \textbf{Ongoing} \\
+Sino-Swedish Computer Science and Software Engineering, cooperation with Tongji University, Shanghai, China. Includes studying one year in Shanghai \\
+Focusing on networking, distributed systems and software engineering.
+
+{\bf M.Sc, Software Engineering,} Tongji University, Shanghai, China \hfill \textbf{Ongoing} \\
+Sino-Swedish Computer Science and Software Engineering, cooperation with Uppsala University, Uppsala, Sweden.\\
+Focusing on Software engineering and Chinese language.
+
+{\bf B.Sc, Computer Science,} Uppsala University, Uppsala, Sweden \hfill May 2012 \\
+General computer science
+
+
+
+\section{Experience}
+{\bf Master thesis position,} Ericsson, Shanghai, China \hfill 2013-01 -- 2013-07
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Title of the thesis is "Content filtering". I were to design and implement Internet Content Adaptation Protocol (ICAP, RFC 3507) for a load test tool developed by Ericsson.
+ \item Feature implemented in Erlang.
+ \item Learned about telecommunication architecture, such as: \\
+ GPRS, WCDMA, LTE, SGSN, GGSN, 3G, 2G, PGW, SGW, MME
+ \end{itemize}
+
+{\bf Teacher assistant,} Uppsala University, Uppsala, Sweden \hfill 2013-06 -- 2013-08\\
+{\bf Teacher assistant,} Uppsala University, Uppsala, Sweden \hfill 2012-06 -- 2012-08
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Teacher assistant for a class named "Peer-To-Peer computing".
+ \item Improve previous Erlang labs with a better structure and user interface.
+ \item Introduce Erlang to the students.
+ \item Attend lab sessions and answer e-mails about lab questions.
+ \item Grade lab exercises.
+ \end{itemize}
+
+{\bf IT-Support,} Uppsala University, Uppsala, Sweden \hfill 2010-10 -- 2012-08
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Help students with IT related issues mainly regarding the UNIX and Windows computer halls at the IT department of the University.
+ \item Maintain printers at IT department.
+ \item Prepare new hardware and install operating systems and software, including UNIX/Linux, Mac and Windows systems.
+ \end{itemize}
+
+{\bf System developer,} Klarna AB, Stockholm, Sweden \hfill 2009-06 -- 2009-10\\
+{\bf System developer,} Klarna AB, Stockholm, Sweden \hfill 2008-06 -- 2008-08
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Developing features for Klarnas' online invoice system.
+ \item Development performed in the programming language Erlang.
+ \item Given more advanced features and slightly more responsibilities second summer due to improved skills in programming.
+ \end{itemize}
+
+\newpage
+\section{Project}
+{\bf Sensor search engine,} Uppsala University, Uppsala, Sverige \hfill 2013-09 -- 2014-01
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Performed in the course "Project Computer Science" for my master degree. The goal of the course was to get a feel of what it is like to work in the industry. Our customer was Ericsson and we also had access to an expert at Sics (www.sics.se)
+Implementation was done mainly in Erlang and Ruby on Rails
+ \item Open source project hosted on github. \\
+ https://github.com/projectcs13/sensor-cloud\\
+ https://github.com/projectcs13/sensor-cloud-website
+ \end{itemize}
+
+\section{Language \\ Skills}
+   \begin{tabular}{l p{3in}}
+    Swedish: & Native proficiency \\
+    English: & Professional working proficiency \\
+    French:  & Elementary proficiency \\
+    Chinese:  & Elementary proficiency
+ \end{tabular}
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Programming language Skills}
+   \begin{tabular}{l p{3in}}
+    Functional Programming: & Erlang, Haskell, Lisp \\
+    Imperative programming: & Java, Python, PHP, C, C++ \\
+    Web programming: & JavaScript, HTML, CSS, Ruby on Rails \\
+    UNIX/Linux: & Bash scripting, Makefile \\
+    App development: & Android API \\
+    Other: & LaTeX (this resume is created using LaTeX)
+ \end{tabular}
+
+\section{Computer software}
+\begin{tabular}{l p{3in}}
+	IDE: & Eclipse, Netbeans \\
+	CVS: & Git, SVN \\
+	Webservers: & Apache, YAWS, Mochiweb \\
+	Editors: & Emacs \\
+	Databases: & Mnesia, Elastic Search, MySQL
+\end{tabular}
+
+\section{Other skills}
+\begin{tabular}{l p{3in}}
+	Project methodology: & Scrum, Agile development
+\end{tabular}
+
+\section{Non-profit activities}
+{\bf Training assistant,} TianLong Kungfu, Stockholm, Sweden \hfill 2005 -- 2006
+\begin{itemize} \itemsep -2pt
+\item Start off Kungfu group training sessions with warm up and basic exercises. Lead entire kungfu sessions on occasion.
+\item Occasionally lead entire Kungfu sessions for adolescents, teens and adults.
+\end{itemize}
+
+{\bf Kitchen Volounteer,} Vässarö scouting camp, Stockholm, Sweden \hfill Summer 2005
+\begin{itemize} \itemsep -2pt
+\item I was part of one of the two teams who prepared food for all of the volounteers at the Vässarö scouting complex.
+\item Prepared food in the large-scale kitchen of the Vässarö complex.
+\end{itemize}
+
+{\bf Sailboat instructor,} Vässarö scouting camp, Stockholm, Sweden \hfill Summer 2004
+\begin{itemize} \itemsep -2pt
+\item Instruct and supervise adolescents, teens and adults in the usage and safety of sailboats and canoes.
+\item Accompanied scout troops on sailing excursions as teacher and supervisor.
+\end{itemize}
+
+{\bf Board member,} Flemingsbergs scout troop, Stockholm, Sweden \hfill 2004
+\begin{itemize} \itemsep -2pt
+\item Attend board meetings and look out for the overall interests of the scout troop.
+\end{itemize}
+{\bf Leader assistant,} Flemingsbergs scout troop, Stockholm, Sweden \hfill 2004
+\begin{itemize} \itemsep -2pt
+\item Assist the troop leader and look after the adolescents.
+\item Plan scout meetings and excursions for the adolescents.
+\end{itemize}
+
+\section{References}
+Provided on demand.
+
+\end{resume}
+\end{document}
