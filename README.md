@@ -1,2 +1,2 @@
-Curriculum Vitae
+My VC
 ================
