@@ -1,11 +1,11 @@
-My CV
-================
+# My CV
 
-# English version
+
+## English version
 https://github.com/Taddic/CV/blob/master/TommyMattsson-CV-english.pdf
 
-# Swedish version
+## Swedish version
 https://github.com/Taddic/CV/blob/master/TommyMattsson-CV-svensk.pdf
 
-# LinkedIn
+## LinkedIn
 https://www.linkedin.com/in/tommymattsson/
