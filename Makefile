@@ -1,26 +1,28 @@
-LATEX      := pdflatex
-PDF_VIEWER := evince
+LATEX         := pdflatex
+PDF_VIEWER    := evince
+TEX_FILES_DIR := tex-files
+CV_DIR        := CV
 
 all: eng swe
 
 eng:
-	$(LATEX) TommyMattsson-CV-english.tex
+	cd $(TEX_FILES_DIR); $(LATEX) -output-directory ../$(CV_DIR) TommyMattsson-CV-english.tex
 	make clean
 
 eng-show: eng
-	$(PDF_VIEWER) TommyMattsson-CV-english.pdf
+	$(PDF_VIEWER) $(CV_DIR)/TommyMattsson-CV-english.pdf
 
 swe:
-	$(LATEX) TommyMattsson-CV-svensk.tex
+	cd $(TEX_FILES_DIR); $(LATEX) -output-directory ../$(CV_DIR) TommyMattsson-CV-svensk.tex
 	make clean
 
 swe-show: swe
-	$(PDF_VIEWER) TommyMattsson-CV-svensk.pdf
+	$(PDF_VIEWER) $(CV_DIR)/TommyMattsson-CV-svensk.pdf
 
 clean:
-	-@rm -rf *.log *.aux *.dvi *~
+	-@cd $(CV_DIR); rm -rf *.log
 
 clean-pdf: clean
-	-@rm -rf *.pdf
+	-@rm -rf $(CV_DIR)/*.pdf
 
 .PHONY: all clean
