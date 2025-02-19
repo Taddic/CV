@@ -11,5 +11,5 @@
 | Certification   | Issuer | Link                                                                                                        | 
 | --------------- | ------ | ----------------------------------------------------------------------------------------------------------- |
 | Erlang beginner | [Erlang Solutions](https://www.erlang-solutions.com/erlang-certification) | https://github.com/Taddic/CV/blob/master/Certifications/Tommy-Mattsson-Erlang-For-Beginners-Certificate.pdf |
-| Erlang advanced | [Erlang Solutions](https://www.erlang-solutions.com/erlang-certification) | To be done, waiting for exam enrollment |
-| Elixir beginner | [Erlang Solutions](https://www.erlang-solutions.com/elixir-certification) | Completed, just waiting for the official pdf |
+| Erlang advanced | [Erlang Solutions](https://www.erlang-solutions.com/erlang-certification) | To be done, waiting for enrollment |
+| Elixir beginner | [Erlang Solutions](https://www.erlang-solutions.com/elixir-certification) | https://github.com/Taddic/CV/blob/master/Certifications/Tommy-Mattsson-Elixir-For-Beginners-Certificate.pdf |
