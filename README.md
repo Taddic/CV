@@ -6,6 +6,8 @@
 | Swedish version | https://github.com/Taddic/CV/blob/master/CV/TommyMattsson-CV-svensk.pdf  |
 | LinkedIn        | https://www.linkedin.com/in/tommymattsson/                               |
 
+Note: My CV is written in LaTeX using this [template](https://github.com/Taddic/Pro-CV-latex-template) I created.
+
 # Certifications
 
 | Certification   | Issuer | Link                                                                                                        | 

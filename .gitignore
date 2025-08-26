@@ -1,3 +1,8 @@
+## Ignore my own class and package files that exists in this repo https://github.com/Taddic/Pro-CV-latex-template
+procv.cls
+procv.sty
+contactinfo.tex
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
